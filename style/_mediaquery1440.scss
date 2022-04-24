@@ -1,0 +1,25 @@
+@media (min-width:1440px){
+    .card{
+        max-width: 19.25rem;
+        padding: 1.7rem 0rem 0rem 0rem;
+    }
+
+    .advice-id{
+        font-size: 0.5rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .advice{
+        font-size: 1rem;
+        padding: 0rem 1.5rem 1.2rem 1.5rem;
+    }
+
+    .divider-mobile{
+        display: none;
+    }
+
+    .divider-desktop{
+        display: block;
+        padding-bottom:0.6rem;
+    }
+}

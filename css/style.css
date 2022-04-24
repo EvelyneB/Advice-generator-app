@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 28px;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #1f2632;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  position: relative;
+  background-color: #323a49;
+  border-radius: 0.5rem;
+  margin: 0rem 0.5rem 0rem 0.5rem;
+  padding: 1.4rem 0rem 0rem 0rem;
+}
+
+.advice-id {
+  padding-bottom: 0.9rem;
+  text-align: center;
+  color: #52ffa8;
+  text-transform: uppercase;
+  font-size: 0.4rem;
+  letter-spacing: 0.1rem;
+}
+
+.advice {
+  padding: 0rem 0.5rem 1rem 0.5rem;
+  color: #cee3e9;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.divider-desktop {
+  display: none;
+}
+
+.dice {
+  width: 2.4rem;
+  padding: 0.7rem;
+  border-radius: 50%;
+  background-color: #52ffa8;
+  border: none;
+  position: absolute;
+  bottom: 0%;
+  right: 50%;
+  -webkit-transform: translateY(50%) translateX(50%);
+          transform: translateY(50%) translateX(50%);
+  cursor: pointer;
+}
+
+.dice:hover {
+  -webkit-box-shadow: 0 0 1rem rgba(82, 255, 168, 0.75);
+          box-shadow: 0 0 1rem rgba(82, 255, 168, 0.75);
+}
+
+@media (min-width: 1440px) {
+  .card {
+    max-width: 19.25rem;
+    padding: 1.7rem 0rem 0rem 0rem;
+  }
+  .advice-id {
+    font-size: 0.5rem;
+    letter-spacing: 0.1rem;
+  }
+  .advice {
+    font-size: 1rem;
+    padding: 0rem 1.5rem 1.2rem 1.5rem;
+  }
+  .divider-mobile {
+    display: none;
+  }
+  .divider-desktop {
+    display: block;
+    padding-bottom: 0.6rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
